@@ -208,6 +208,6 @@ CheckUser.php  ->> For check user
 
 # Import Tables : 
 
-Execute
+Excecute
 
 php artisan migrate
