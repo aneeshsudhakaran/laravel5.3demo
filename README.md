@@ -206,7 +206,7 @@ CheckUser.php  ->> For check user
 2016_10_18_131630_create_admins_passowrd_resets_table.php
 
 
-# import Tables : 
+# Import Tables : 
 
 Execute
 
