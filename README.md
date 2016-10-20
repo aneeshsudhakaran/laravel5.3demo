@@ -1,4 +1,4 @@
-# laravel5.3demo
+# Laravel5.3demo
 laravel 5.3 Demo for Multiauth with user and admin table
 
 # Configurations:
@@ -125,19 +125,8 @@ return [
 ];
 
 # routes/web.php
-<?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| This file is where you may define all of the routes that are handled
-| by your application. Just tell Laravel the URIs it should respond
-| to using a Closure or controller method. Build something great!
-|
-*/
-Auth::routes();
+<?php
 
 Route::group(['middleware' => ['guest']], function () {
     
