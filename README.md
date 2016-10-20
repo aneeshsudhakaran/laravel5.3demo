@@ -187,6 +187,8 @@ Add with protected $routeMiddleware = [
         + 'user' => \App\Http\Middleware\CheckUser::class,
 
 #/app/Http/Middleware
+
 CheckAdmin.php ->> For check admin 
+
 CheckUser.php  ->> For check user
 
