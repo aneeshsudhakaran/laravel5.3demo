@@ -1,4 +1,4 @@
-# Laravel5.3demo
+# Laravel-5.3 Demo
 laravel 5.3 Demo for Multiauth with user and admin table
 
 # Configurations:
