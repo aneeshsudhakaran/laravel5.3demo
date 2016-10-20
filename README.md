@@ -192,3 +192,22 @@ CheckAdmin.php ->> For check admin
 
 CheckUser.php  ->> For check user
 
+
+
+# Migration Tables
+## /database/migrations
+
+2014_10_12_000000_create_users_table.php
+
+2014_10_12_100000_create_password_resets_table.php
+
+2016_10_18_131257_create_admins_table.php
+
+2016_10_18_131630_create_admins_passowrd_resets_table.php
+
+
+# import Tables : 
+
+Execute
+
+php artisan migrate
