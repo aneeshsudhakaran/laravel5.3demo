@@ -4,6 +4,9 @@ laravel 5.3 Demo for Multiauth with user and admin table
 # Configurations:
 
 # /config/auth.php
+
+
+```
 <?php
 
 return [
@@ -123,9 +126,11 @@ return [
     ],
 
 ];
+```
 
 # routes/web.php
 
+```
 <?php
 
 Route::group(['middleware' => ['guest']], function () {
@@ -191,12 +196,13 @@ Add with protected $routeMiddleware = [
 CheckAdmin.php ->> For check admin 
 
 CheckUser.php  ->> For check user
-
+```
 
 
 # Migration Tables
 ## /database/migrations
 
+```
 2014_10_12_000000_create_users_table.php
 
 2014_10_12_100000_create_password_resets_table.php
@@ -204,10 +210,12 @@ CheckUser.php  ->> For check user
 2016_10_18_131257_create_admins_table.php
 
 2016_10_18_131630_create_admins_passowrd_resets_table.php
-
+```
 
 # Import Tables : 
 
 Excecute
 
+```
 php artisan migrate
+```
