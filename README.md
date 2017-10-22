@@ -2,7 +2,7 @@
 laravel 5.3 Demo for Multiauth with user and admin table
 
 # Configurations:
-
+```
 # /config/auth.php
 <?php
 
@@ -205,7 +205,7 @@ CheckUser.php  ->> For check user
 
 2016_10_18_131630_create_admins_passowrd_resets_table.php
 
-
+```
 # Import Tables : 
 
 Excecute
